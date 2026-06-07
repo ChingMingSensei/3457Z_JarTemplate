@@ -16,6 +16,7 @@ motor RightFront = motor(PORT3, ratio6_1, true);
 motor RightBack = motor(PORT4, ratio6_1, true);
 motor_group LeftDrive = motor_group(LeftFront, LeftBack);
 motor_group RightDrive = motor_group(RightFront, RightBack);
+inertial Inertial = inertial(PORT5);
 
 void vexcodeInit( void ) {
   // nothing to initialize

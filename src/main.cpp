@@ -29,7 +29,7 @@ motor RightFront = motor(PORT3, ratio6_1, true);
 motor RightBack = motor(PORT4, ratio6_1, true);
 motor_group LeftDrive = motor_group(LeftFront, LeftBack);
 motor_group RightDrive = motor_group(RightFront, RightBack);
-inertial Inertial = inertial(PORT10);
+inertial Inertial = inertial(PORT5);
 
 Drive chassis(
 
@@ -58,7 +58,7 @@ motor_group(LeftFront, LeftBack),
 motor_group(RightFront, RightBack),
 
 //Specify the PORT NUMBER of your inertial sensor, in PORT format (i.e. "PORT1", not simply "1"):
-PORT10,
+PORT5,
 
 //Input your wheel diameter. (4" omnis are actually closer to 4.125"):
 3.25,

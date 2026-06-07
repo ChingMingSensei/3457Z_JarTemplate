@@ -11,6 +11,6 @@ extern motor RightFront;
 extern motor RightBack;
 extern motor_group LeftDrive;
 extern motor_group RightDrive;
-
+extern inertial Inertial;
 
 void  vexcodeInit( void );
